@@ -535,6 +535,10 @@ img {
   margin-bottom: 8px;
 }
 
+.for-four {
+  margin-bottom: 16px;
+}
+
 .modal-input-cover {
   position: relative;
 }
