@@ -567,6 +567,41 @@ img {
   border-color: #4d5ae5;
 }
 
+.modal-fild-chek {
+  margin-bottom: 26px;
+}
+
+.chek-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.chek-element {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  display: inline-flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-chek:checked + .chek-text .chek-element {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.chek-linc {
+  color: #4d5ae5;
+}
+
 .send-btn {
   display: block;
   min-width: 169px;
