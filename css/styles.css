@@ -419,6 +419,8 @@ img {
 
 .form-to-footer {
   display: flex;
+
+  gap: 24px;
 }
 
 .footer-form-text {
